@@ -5,6 +5,12 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>solo_az_demo</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/4d2d38fc-9364-4186-89a4-192847277327/resourceGroups/solo-az-demo20241030091301ResourceGroup/providers/microsoft.insights/components/sol-az-demo</ApplicationInsightsResourceId>
+    <UserSecretsId>671ed693-0509-4cb2-809a-6f5c6e5e3996</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+  </ItemGroup>
 
 </Project>
