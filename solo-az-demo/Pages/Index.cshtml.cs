@@ -16,7 +16,6 @@ namespace solo_az_demo.Pages
 
         public void OnGet()
         {
-            ViewData["Greetings"] = _configuration["Greeting"];
         }
     }
 }
